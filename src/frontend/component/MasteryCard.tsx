@@ -2,15 +2,15 @@ import { ReactNode } from "react";
 
 type MasteryCardProps = {
   img:
-    | "/src/frontend/assets/svg/LanguageIcon/HTML5_logo_and_wordmark.svg"
-    | "/src/frontend/assets/svg/LanguageIcon/CSS3_logo_and_wordmark.svg"
-    | "/src/frontend/assets/svg/LanguageIcon/Unofficial_JavaScript_logo_2.svg"
-    | "/src/frontend/assets/svg/LanguageIcon/Typescript_logo_2020.svg"
-    | "/src/frontend/assets/svg/LanguageIcon/express-svgrepo-com.svg"
-    | "/src/frontend/assets/svg/LanguageIcon/React-icon.svg"
-    | "/src/frontend/assets/svg/LanguageIcon/Tailwind_CSS_Logo.svg"
-    | "/src/frontend/assets/svg/LanguageIcon/Postgresql_elephant.svg"
-    | "/src/frontend/assets/svg/LanguageIcon/mysql-logo-svgrepo-com.svg";
+    | "/svg/LanguageIcon/HTML5_logo_and_wordmark.svg"
+    | "/svg/LanguageIcon/CSS3_logo_and_wordmark.svg"
+    | "/svg/LanguageIcon/Unofficial_JavaScript_logo_2.svg"
+    | "/svg/LanguageIcon/Typescript_logo_2020.svg"
+    | "/svg/LanguageIcon/express-svgrepo-com.svg"
+    | "/svg/LanguageIcon/React-icon.svg"
+    | "/svg/LanguageIcon/Tailwind_CSS_Logo.svg"
+    | "/svg/LanguageIcon/Postgresql_elephant.svg"
+    | "/svg/LanguageIcon/mysql-logo-svgrepo-com.svg";
   title?: string;
   children: ReactNode;
   href: string;

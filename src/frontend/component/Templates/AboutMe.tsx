@@ -33,7 +33,7 @@ const AboutMe = () => {
           >
             <img
               className="duration-300 object-cover w-full h-full hover:scale-125"
-              src="/src/frontend/assets/img/hero-pp.jpg"
+              src="/img/hero-pp.jpg"
               alt=""
             />
           </div>
@@ -50,7 +50,7 @@ const AboutMe = () => {
               <div className="flex items-center justify-start gap-3">
                 <img
                   className="w-16 hover-drop-shadow"
-                  src="/src/frontend/assets/svg/Telegram_2019_Logo.svg"
+                  src="/svg/Telegram_2019_Logo.svg"
                   alt=""
                 />
                 <a href="http://t.me/iamCelott" target="_blank">
@@ -68,14 +68,14 @@ const AboutMe = () => {
                 </a>
                 <img
                   className="w-16 hover-drop-shadow"
-                  src="/src/frontend/assets/svg/Instagram_logo_2022.svg"
+                  src="/svg/Instagram_logo_2022.svg"
                   alt=""
                 />
               </div>
               <div className="flex items-center justify-start gap-3">
                 <img
                   className="w-16 hover-drop-shadow"
-                  src="/src/frontend/assets/svg/GitHub_Invertocat_Logo.svg"
+                  src="/svg/GitHub_Invertocat_Logo.svg"
                   alt=""
                 />
                 <a href="https://github.com/iamCelott" target="_blank">
@@ -93,7 +93,7 @@ const AboutMe = () => {
                 </a>
                 <img
                   className="w-16 hover-drop-shadow"
-                  src="/src/frontend/assets/svg/linkedin-svgrepo-com.svg"
+                  src="/svg/linkedin-svgrepo-com.svg"
                   alt=""
                 />
               </div>
@@ -107,7 +107,7 @@ const AboutMe = () => {
             <div className="flex items-center justify-start gap-3 md:absolute md:top-0 md:left-0">
               <img
                 className="w-16 hover-drop-shadow"
-                src="/src/frontend/assets/svg/Telegram_2019_Logo.svg"
+                src="/svg/Telegram_2019_Logo.svg"
                 alt=""
               />
               <a href="http://t.me/iamCelott" target="_blank">
@@ -123,14 +123,14 @@ const AboutMe = () => {
               </a>
               <img
                 className="w-16 hover-drop-shadow"
-                src="/src/frontend/assets/svg/Instagram_logo_2022.svg"
+                src="/svg/Instagram_logo_2022.svg"
                 alt=""
               />
             </div>
             <div className="flex items-center justify-start gap-3 md:absolute md:top-1/2 md:right-20">
               <img
                 className="w-16 hover-drop-shadow"
-                src="/src/frontend/assets/svg/GitHub_Invertocat_Logo.svg"
+                src="/svg/GitHub_Invertocat_Logo.svg"
                 alt=""
               />
               <a href="https://github.com/iamCelott" target="_blank">
@@ -146,7 +146,7 @@ const AboutMe = () => {
               </a>
               <img
                 className="w-16 hover-drop-shadow"
-                src="/src/frontend/assets/svg/linkedin-svgrepo-com.svg"
+                src="/svg/linkedin-svgrepo-com.svg"
                 alt=""
               />
             </div>

@@ -28,7 +28,7 @@ const Mastery = () => {
         className="flex flex-wrap py-3 "
       >
         <MasteryCard
-          img="/src/frontend/assets/svg/LanguageIcon/HTML5_logo_and_wordmark.svg"
+          img="/svg/LanguageIcon/HTML5_logo_and_wordmark.svg"
           title="HTML"
           href="https://developer.mozilla.org/en-US/docs/Web/HTML"
         >
@@ -37,7 +37,7 @@ const Mastery = () => {
           and links effectively.
         </MasteryCard>
         <MasteryCard
-          img="/src/frontend/assets/svg/LanguageIcon/CSS3_logo_and_wordmark.svg"
+          img="/svg/LanguageIcon/CSS3_logo_and_wordmark.svg"
           title="CSS"
           href="https://developer.mozilla.org/en-US/docs/Web/CSS"
         >
@@ -46,7 +46,7 @@ const Mastery = () => {
           resulting in visually appealing websites.
         </MasteryCard>
         <MasteryCard
-          img="/src/frontend/assets/svg/LanguageIcon/Unofficial_JavaScript_logo_2.svg"
+          img="/svg/LanguageIcon/Unofficial_JavaScript_logo_2.svg"
           title="Javascript"
           href="https://developer.mozilla.org/en-US/docs/Web/javascript"
         >
@@ -55,7 +55,7 @@ const Mastery = () => {
           enhance user experience.
         </MasteryCard>
         <MasteryCard
-          img="/src/frontend/assets/svg/LanguageIcon/Typescript_logo_2020.svg"
+          img="/svg/LanguageIcon/Typescript_logo_2020.svg"
           title="Typescript"
           href="https://www.typescriptlang.org/docs/"
         >
@@ -64,7 +64,7 @@ const Mastery = () => {
           maintainability.
         </MasteryCard>
         <MasteryCard
-          img="/src/frontend/assets/svg/LanguageIcon/express-svgrepo-com.svg"
+          img="/svg/LanguageIcon/express-svgrepo-com.svg"
           title="ExpressJs"
           href="https://expressjs.com/"
         >
@@ -73,7 +73,7 @@ const Mastery = () => {
           server management.
         </MasteryCard>
         <MasteryCard
-          img="/src/frontend/assets/svg/LanguageIcon/React-icon.svg"
+          img="/svg/LanguageIcon/React-icon.svg"
           title="ReactJs"
           href="https://react.dev/"
         >
@@ -82,7 +82,7 @@ const Mastery = () => {
           dynamic content.
         </MasteryCard>
         <MasteryCard
-          img="/src/frontend/assets/svg/LanguageIcon/Tailwind_CSS_Logo.svg"
+          img="/svg/LanguageIcon/Tailwind_CSS_Logo.svg"
           title="Tailwind"
           href="https://tailwindcss.com/"
         >
@@ -91,7 +91,7 @@ const Mastery = () => {
           customization.
         </MasteryCard>
         <MasteryCard
-          img="/src/frontend/assets/svg/LanguageIcon/Postgresql_elephant.svg"
+          img="/svg/LanguageIcon/Postgresql_elephant.svg"
           title="PostgreSql"
           href="https://www.postgresql.org/"
         >
@@ -100,7 +100,7 @@ const Mastery = () => {
           support for complex data types.
         </MasteryCard>
         <MasteryCard
-          img="/src/frontend/assets/svg/LanguageIcon/mysql-logo-svgrepo-com.svg"
+          img="/svg/LanguageIcon/mysql-logo-svgrepo-com.svg"
           title="MySql"
           href="https://www.mysql.com/"
         >

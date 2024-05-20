@@ -6,14 +6,14 @@ const Footer = () => {
           <span>This Web Created Using: </span>
           <a href="https://react.dev/" target="_blank">
             <img
-              src="/src/frontend/assets/svg/LanguageIcon/React-icon.svg"
+              src="/svg/LanguageIcon/React-icon.svg"
               alt=""
               className="w-6 animate-spin"
             />
           </a>
           <a href="https://tailwindcss.com/" target="_blank">
             <img
-              src="/src/frontend/assets/svg/LanguageIcon/Tailwind_CSS_Logo.svg"
+              src="/svg/LanguageIcon/Tailwind_CSS_Logo.svg"
               alt=""
               className="w-6"
             />

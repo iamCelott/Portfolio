@@ -49,11 +49,7 @@ const HeroContent = () => {
       </span>
       <div className="flex gap-5 sm:w-[25rem] md:w-[30rem] lg:w-[40rem] xl:w-[50rem] items-center py-7 mx-auto">
         <div className="w-24 md:w-32 xl:w-44 rounded-full overflow-hidden p-1 border-2 object-cover border-[rgba(255,255,255,0.3)]">
-          <img
-            src="/src/frontend/assets/img/profile-pic.jpg"
-            alt=""
-            className="rounded-full"
-          />
+          <img src="img/profile-pic.jpg" alt="" className="rounded-full" />
         </div>
 
         <div className="flex flex-col">
@@ -114,7 +110,7 @@ const HeroContent = () => {
               className="flex items-center gap-2 py-[3px] pr-6 md:pr-10 lg:pr-20 pl-2 cursor-pointer hover:bg-[rgba(255,255,255,0.2)]"
             >
               <img
-                src="/src/frontend/assets/svg/white-king-svgrepo-com.svg"
+                src="/svg/white-king-svgrepo-com.svg"
                 alt=""
                 className="w-3 h-3 lg:w-5 lg:h-5"
               />
@@ -134,7 +130,7 @@ const HeroContent = () => {
               className="flex items-center gap-2 py-[3px] pr-6 md:pr-10 lg:pr-20 pl-2 cursor-pointer hover:bg-[rgba(255,255,255,0.2)]"
             >
               <img
-                src="/src/frontend/assets/svg/white-queen-svgrepo-com.svg"
+                src="/svg/white-queen-svgrepo-com.svg"
                 alt=""
                 className="w-3 h-3 lg:w-5 lg:h-5"
               />
@@ -154,7 +150,7 @@ const HeroContent = () => {
               className="flex items-center gap-2 py-[3px] pr-6 md:pr-10 lg:pr-20 pl-2 cursor-pointer hover:bg-[rgba(255,255,255,0.2)]"
             >
               <img
-                src="/src/frontend/assets/svg/white-bishop-svgrepo-com.svg"
+                src="/svg/white-bishop-svgrepo-com.svg"
                 alt=""
                 className="w-3 h-3 lg:w-5 lg:h-5"
               />
@@ -173,10 +169,10 @@ const HeroContent = () => {
           >
             <div className="flex items-center gap-2 py-[3px] pr-6 md:pr-10 lg:pr-20 pl-2 cursor-pointer hover:bg-[rgba(255,255,255,0.2)]">
               <img
-                src="/src/frontend/assets/svg/white-knight-svgrepo-com.svg"
+                src="/svg/white-knight-svgrepo-com.svg"
                 alt=""
                 className="w-3 h-3 lg:w-5 lg:h-5"
-              />{" "} 
+              />{" "}
               <span className="text-sm lg:text-lg xl:text-xl">Contact</span>
             </div>
           </a>
