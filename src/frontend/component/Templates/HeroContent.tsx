@@ -48,9 +48,14 @@ const HeroContent = () => {
         </div>
       </span>
       <div className="flex gap-5 sm:w-[25rem] md:w-[30rem] lg:w-[40rem] xl:w-[50rem] items-center py-7 mx-auto">
-        <div className="w-24 md:w-32 xl:w-44 rounded-full overflow-hidden p-1 border-2 object-cover border-[rgba(255,255,255,0.3)]">
-          <img src="img/profile-pic.jpg" alt="" className="rounded-full" />
-        </div>
+        <a
+          href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRzCpVPbwjXXhGrvWnGrMBMrWhcWWvWVfLVTQrZXLzCvGnvdcPTHCzLKqMGHNLKSlvTBhQjx"
+          target="_blank"
+        >
+          <div className="w-24 md:w-32 xl:w-44 rounded-full overflow-hidden p-1 border-2 object-cover border-[rgba(255,255,255,0.3)]">
+            <img src="img/profile-pic.jpg" alt="" className="rounded-full" />
+          </div>
+        </a>
 
         <div className="flex flex-col">
           <span className="md:text-lg lg:text-2xl xl:text-3xl">

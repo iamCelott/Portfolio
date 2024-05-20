@@ -6,7 +6,7 @@ const AboutMe = () => {
     AOS.init();
   }, []);
   return (
-    <div className="w-3/4 sm:w-[30rem] md:w-[35rem] lg:w-[45rem] xl:w-[60rem] py-16 pb-52 mx-auto text-white font-[poppins]">
+    <div className="w-3/4 sm:w-[30rem] md:w-[35rem] lg:w-[45rem] xl:w-[60rem] py-3 lg:pt-16 pb-52 mx-auto text-white font-[poppins]">
       <div className="md:max-w-xl lg:max-w-3xl xl:max-w-5xl">
         <div className="flex justify-between">
           <div
@@ -101,9 +101,14 @@ const AboutMe = () => {
           </div>
         </div>
 
-        <div className="max-w-[320px] md:max-w-none py-5 xl:hidden">
+        <div
+          className="max-w-[320px] md:max-w-none py-5 xl:hidden"
+          data-aos="fade-left"
+          data-aos-duration="500"
+          data-aos-delay="500"
+        >
           <h1 className=" text-2xl lg:text-3xl font-bold py-3">Get in Touch</h1>
-          <div className="w-full md:h-52 flex flex-col gap-3 relative">
+          <div className="w-full md:h-52 flex flex-col gap-3 sm:gap-7 relative">
             <div className="flex items-center justify-start gap-3 md:absolute md:top-0 md:left-0">
               <img
                 className="w-16 hover-drop-shadow"
@@ -114,15 +119,16 @@ const AboutMe = () => {
                 <span className="relative underline-animation">Telegram</span>
               </a>
             </div>
-            <div className="flex items-center justify-end gap-3 md:absolute md:top-1/2 md:left-20">
+            <div className="flex items-center justify-end sm:justify-start md:justify-end gap-3 md:absolute md:top-1/2 md:left-20">
               <a
                 href="https://www.instagram.com/dcviriya?igsh=MWIzd2hqNTI5cGR0bA=="
                 target="_blank"
+                className="sm:order-2 md:order-1"
               >
                 <span className="relative underline-animation">Instagram</span>
               </a>
               <img
-                className="w-16 hover-drop-shadow"
+                className="w-16 hover-drop-shadow sm:order-1 md:order-2"
                 src="/svg/Instagram_logo_2022.svg"
                 alt=""
               />
@@ -137,15 +143,16 @@ const AboutMe = () => {
                 <span className="relative underline-animation">Github</span>
               </a>
             </div>
-            <div className="flex items-center justify-end gap-3 md:absolute md:top-0 md:right-0">
+            <div className="flex items-center justify-end sm:justify-start md:justify-end gap-3 md:absolute md:top-0 md:right-0">
               <a
                 href="https://www.linkedin.com/in/dharma-chandra-viriya-286497305/"
                 target="_blank"
+                className="sm:order-2 md:order-1"
               >
                 <span className="relative underline-animation">Linked in</span>
               </a>
               <img
-                className="w-16 hover-drop-shadow"
+                className="w-16 hover-drop-shadow sm:order-1 md:order-2"
                 src="/svg/linkedin-svgrepo-com.svg"
                 alt=""
               />
