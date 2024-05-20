@@ -2,7 +2,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import MasteryCard from "../MasteryCard";
 import { useEffect } from "react";
-import { Cursor, Typewriter } from "react-simple-typewriter";
+import { Typewriter } from "react-simple-typewriter";
 const Mastery = () => {
   useEffect(() => {
     AOS.init();
