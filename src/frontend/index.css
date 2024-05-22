@@ -29,3 +29,15 @@ body {
 .underline-animation:hover:after {
   width: 100%;
 }
+
+.brightness-parent:hover .brightness-child {
+  filter: brightness(0.3);
+}
+
+.color-hover-text-parent:hover .color-hover-text-child {
+  color: #ca8a04;
+}
+
+.text-opacity-parent:hover .text-opacity-child {
+  opacity: 1;
+}

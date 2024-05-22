@@ -23,7 +23,7 @@ const Mastery = () => {
       <div
         data-aos="zoom-in-up"
         data-aos-duration="500"
-        data-aos-easing="linear"
+        data-aos-easing="ease"
         data-aos-delay="1200"
         className="flex flex-wrap py-3 "
       >
