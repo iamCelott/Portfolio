@@ -61,17 +61,17 @@ const Project = () => {
               <div className="flex justify-between">
                 <div className="flex gap-3">
                   <img
-                    src="/public/svg/React-icon.svg"
+                    src="/svg/React-icon.svg"
                     alt=""
                     className="w-7 animate-spin"
                   />
                   <img
-                    src="/public/svg/tailwind-svgrepo-com.svg"
+                    src="/svg/tailwind-svgrepo-com.svg"
                     alt=""
                     className="w-7"
                   />
                   <img
-                    src="/public/svg/typescript-official-svgrepo-com.svg"
+                    src="/svg/typescript-official-svgrepo-com.svg"
                     className="w-7"
                     alt=""
                   />
