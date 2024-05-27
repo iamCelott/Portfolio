@@ -1,10 +1,4 @@
-import { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
 const AboutMe = () => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
   return (
     <div className="w-3/4 sm:w-[30rem] md:w-[35rem] lg:w-[45rem] xl:w-[60rem] py-3 lg:pt-16 pb-52 mx-auto text-white font-[poppins]">
       <div className="md:max-w-xl lg:max-w-3xl xl:max-w-5xl">

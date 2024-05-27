@@ -1,6 +1,6 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
-import MasteryCard from "../MasteryCard";
+import MasteryCard from "../Fragments/MasteryCard";
 import { useEffect } from "react";
 import { Typewriter } from "react-simple-typewriter";
 const Mastery = () => {
