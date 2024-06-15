@@ -9,6 +9,7 @@ type CardProjectProps = {
   img: string;
   title: string;
   desc: string;
+  github: string;
 };
 const CardProject = ({
   dataAos,
@@ -17,6 +18,7 @@ const CardProject = ({
   img,
   title,
   desc,
+  github,
 }: CardProjectProps) => {
   useEffect(() => {
     AOS.init();
@@ -71,7 +73,7 @@ const CardProject = ({
               </div>
 
               <a
-                href="https://github.com/iamCelott/NinuMovie"
+                href={github}
                 target="_blank"
                 className="text-blue-500 flex gap-3"
               >

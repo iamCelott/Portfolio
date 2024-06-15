@@ -26,6 +26,7 @@ const Project = () => {
           dataAos="fade-right"
           dataAosDelay="1600"
           href="https://ninumovie.vercel.app/"
+          github="https://github.com/iamCelott/NinuMovie"
           img="/img/project-1.png"
           title="NinuMovie"
           desc="NinuMovie is a film documentation platform that utilizes React
@@ -34,6 +35,15 @@ const Project = () => {
           quickly and conveniently discover and explore their favorite
           movies. With interactive features and a clean interface,
           NinuMovie delivers a fun and informative cinematic experience."
+        />
+        <CardProject
+          dataAos="fade-left"
+          dataAosDelay="2000"
+          href="https://askwai.vercel.app/"
+          github="https://github.com/iamCelott/AskWai"
+          img="/img/project-2.jpg"
+          title="AskWai"
+          desc="AskWai is an innovative platform leveraging AI technology powered by Groq SDK to provide interactive and informative experiences through chat. With a focus on enhancing connectivity between humans and technology, AskWai inspires users to explore diverse topics, obtain quick and accurate solutions, and foster more progressive and adaptive interactions in seeking information."
         />
       </div>
     </div>
