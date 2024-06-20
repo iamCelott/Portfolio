@@ -5,7 +5,7 @@ import Footer from "../component/Templates/Footer";
 const Index = () => {
   return (
     <>
-      <div className="bg-[#120E1D] w-full">
+      <div className="gradient-circle w-full">
         <Navbar />
         <HeroContent />
         <MainContent />

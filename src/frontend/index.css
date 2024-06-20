@@ -41,3 +41,8 @@ body {
 .text-opacity-parent:hover .text-opacity-child {
   opacity: 1;
 }
+
+.gradient-circle {
+  background: radial-gradient(at 50% 0%, #150933 0%, #120E1D 70%);
+}
+
