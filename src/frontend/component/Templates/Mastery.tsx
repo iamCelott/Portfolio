@@ -37,6 +37,15 @@ const Mastery = () => {
           and links effectively.
         </MasteryCard>
         <MasteryCard
+          img="/svg/LanguageIcon/php-icon.svg"
+          title="PHP"
+          href="https://www.php.net/"
+        >
+          PHP is a server-side scripting language designed for web development,
+          enabling the creation of dynamic web pages and interaction with
+          databases. It’s widely used due to its simplicity and efficiency.
+        </MasteryCard>
+        <MasteryCard
           img="/svg/LanguageIcon/CSS3_logo_and_wordmark.svg"
           title="CSS"
           href="https://developer.mozilla.org/en-US/docs/Web/CSS"
@@ -80,6 +89,15 @@ const Mastery = () => {
           React is a JavaScript library for building user interfaces, offering
           reusable components and a virtual DOM for efficient rendering of
           dynamic content.
+        </MasteryCard>
+        <MasteryCard
+          img="/svg/LanguageIcon/Laravel-icon.svg"
+          title="Laravel"
+          href="https://laravel.com/"
+        >
+          Laravel, with its MVC architecture, Eloquent ORM, Blade templating,
+          and robust tools, simplifies web development and is widely favored
+          among PHP developers.
         </MasteryCard>
         <MasteryCard
           img="/svg/LanguageIcon/Tailwind_CSS_Logo.svg"

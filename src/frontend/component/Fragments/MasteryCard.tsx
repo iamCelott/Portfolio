@@ -10,7 +10,9 @@ type MasteryCardProps = {
     | "/svg/LanguageIcon/React-icon.svg"
     | "/svg/LanguageIcon/Tailwind_CSS_Logo.svg"
     | "/svg/LanguageIcon/Postgresql_elephant.svg"
-    | "/svg/LanguageIcon/mysql-logo-svgrepo-com.svg";
+    | "/svg/LanguageIcon/mysql-logo-svgrepo-com.svg"
+    | "/svg/LanguageIcon/php-icon.svg"
+    | "/svg/LanguageIcon/Laravel-icon.svg";
   title?: string;
   children: ReactNode;
   href: string;
