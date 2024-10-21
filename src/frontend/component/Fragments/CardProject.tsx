@@ -10,6 +10,7 @@ type CardProjectProps = {
   title: string;
   desc: string;
   github: string;
+  children: React.ReactNode;
 };
 const CardProject = ({
   dataAos,
@@ -19,6 +20,7 @@ const CardProject = ({
   title,
   desc,
   github,
+  children,
 }: CardProjectProps) => {
   useEffect(() => {
     AOS.init();
@@ -28,7 +30,7 @@ const CardProject = ({
     <>
       <div
         data-aos={dataAos}
-        data-aos-duration="500"
+        data-aos-duration="750"
         data-aos-easing="ease"
         data-aos-delay={dataAosDelay}
       >
@@ -59,17 +61,7 @@ const CardProject = ({
 
             <div className="flex justify-between">
               <div className="flex gap-3">
-                <img src="/svg/React-icon.svg" alt="" className="w-7" />
-                <img
-                  src="/svg/tailwind-svgrepo-com.svg"
-                  alt=""
-                  className="w-7"
-                />
-                <img
-                  src="/svg/typescript-official-svgrepo-com.svg"
-                  className="w-7"
-                  alt=""
-                />
+                {children}
               </div>
 
               <a
